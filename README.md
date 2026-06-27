@@ -1,21 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+![Texto alternativo](/assets/banner.png)
+# AgroEcox
 
-# Run and deploy your AI Studio app
+Este proyecto es una aplicación Android desarrollada para la gestión agrícola, integrando inteligencia artificial y servicios de Google.
 
-This contains everything you need to run your app locally.
+## Herramientas utilizadas
+- **AI Studio**: Para el desarrollo de una app con Android.
+- **Gemini API**: Para el chatbot.
+- **API de Google Sheets**: Para la gestión de los registros.
+- **Firebase**: Para autenticación con correo y contraseña.
+- **Apps Script**: Mini back-end para agregar los registros a Google Sheets.
+- **Gemini**: Para depuración en Android Studio.
+- **Google Drive**: Para almacenar imágenes.
 
-View your app in AI Studio: https://ai.studio/apps/749e28e9-89fe-4694-9260-f5240d41c045
+## Lenguajes de programación utilizados
+- **Kotlin**
+- **JavaScript**
 
-## Run Locally
+## Contribuidores
+- **Diana Gabriela Arias Ilimuri**
+- **Carles Romy Andres Quispe Tarqui**
+- **Juan Gabriel Tantani Patti**
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+---
 
+## Ejecución Local
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+**Requisitos previos:** [Android Studio](https://developer.android.com/studio)
+
+1. Abrir Android Studio.
+2. Seleccionar **Open** y elegir el directorio que contiene este proyecto.
+3. Permitir que Android Studio corrija cualquier incompatibilidad durante la importación.
+4. Crear un archivo llamado `.env` en el directorio del proyecto y configurar `GEMINI_API_KEY` con tu clave de API de Gemini (ver `.env.example` como ejemplo).
+5. Eliminar esta línea del archivo `build.gradle.kts` de la aplicación: `signingConfig = signingConfigs.getByName("debugConfig")`.
+6. Ejecutar la aplicación en un emulador o dispositivo físico.
+
+---
+
+View your app in AI Studio: [https://ai.studio/apps/749e28e9-89fe-4694-9260-f5240d41c045](https://ai.studio/apps/749e28e9-89fe-4694-9260-f5240d41c045)
