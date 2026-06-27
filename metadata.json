@@ -1,0 +1,6 @@
+{
+  "name": "AgroEcox",
+  "description": "Plataforma de monitoreo y gestión de cultivos agrícolas con asistencia de IA y catálogo integrado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313492594353",
+    "project_id": "agrinexus-db",
+    "storage_bucket": "agrinexus-db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313492594353:android:348c6b48126035401dcc90",
+        "android_client_info": {
+          "package_name": "com.aistudio.agrinexus.kxmpzq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtBP1SXXH1gaKvN8h2INXvr2oSBxw4Tbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
